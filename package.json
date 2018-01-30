@@ -1,0 +1,21 @@
+{
+  "name": "crypto-tax-helper",
+  "version": "0.1.0",
+  "description": "A tool to help you compute taxes for mining and trading cryptocurrencies",
+  "author": "Henry Brown <henry@ibespwn.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "private": false,
+  "repository": "git@github.com:keymux/crypto-tax-helper",
+  "scripts": {
+    "monstart": "nodemon -x \"electron index.js\" --ignore-file=.gitignore -e \"*.js\"",
+    "start": "electron index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "bootstrap-electron": "keymux/bootstrap-electron#v4.0.0",
+    "jquery-electron": "keymux/jquery-electron#v3.3.1"
+  }
+}
